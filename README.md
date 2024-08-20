@@ -1,4 +1,4 @@
-![Uploading Screenshot 2024-08-20 100610.png…]()
+
 # OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
