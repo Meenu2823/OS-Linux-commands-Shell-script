@@ -42,46 +42,25 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-chanchal singhvi                                                                                         
-c.k. shukla                                                                                              
-s.n. dasgupta                                                                                            
-sumit chakrobarty 
-
+![image](https://github.com/user-attachments/assets/b7a1a180-f286-4067-b44b-a27e1ff91a2b)
 
 cat < file2
 ## OUTPUT
-anil aggarwal                                                                                            
-barun sengupta                                                                                           
-c.k. shukla                                                                                              
-lalit chowdry                                                                                            
-s.n. dasgupta  
+![image](https://github.com/user-attachments/assets/e9f32e1d-e428-44ef-a211-36b512ef316c)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
-file1 file2 differ: byte 1, line 1
+
 comm file1 file2
  ## OUTPUT
-        anil aggarwal                                                                                    
-        barun sengupta                                                                                   
-chanchal singhvi                                                                                         
-                c.k. shukla                                                                              
-        lalit chowdry                                                                                    
-                s.n. dasgupta                                                                            
-sumit chakrobarty     
- 
+ ![image](https://github.com/user-attachments/assets/f7b9cfe6-2ab6-4ccb-a495-c59916f5ee0b)
+       
 diff file1 file2
 ## OUTPUT
-1c1,2                                             
-< chanchal singhvi                                
----                                               
-> anil aggarwal                                   
-> barun sengupta                                  
-2a4                                               
-> lalit chowdry                                   
-4d5                                               
-< sumit chakrobarty   
-#Filters
+![image](https://github.com/user-attachments/assets/cf8ca6aa-e525-4715-acd9-6ed2be996d4e)
+
+# Filters
 
 ### Create the following files file11, file22 as follows:
 
@@ -102,12 +81,14 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/fd98680d-32a2-4c3d-b230-ed9a1e4524cf)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d96b4196-8a08-4ede-8e1e-10198670423a)
 
 
 
@@ -127,17 +108,20 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/31407ca3-18f1-43fb-a32a-14431d1b1e8a)
 
 
 
 grep hello newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/68db221c-52c4-4d01-a317-892a740f4460)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/5c12bd6b-9d3c-45c2-8cea-a8f5cbf38504)
 
 
 
