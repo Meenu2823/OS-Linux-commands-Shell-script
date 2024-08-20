@@ -1,3 +1,4 @@
+![Uploading Screenshot 2024-08-20 100610.png…]()
 # OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
@@ -94,6 +95,7 @@ cut -d "|" -f 1 file22
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/4d53309a-1361-4374-8384-0fcbbc6c5729)
 
 
 cat < newfile 
