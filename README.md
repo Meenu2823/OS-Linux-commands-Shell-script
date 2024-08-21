@@ -96,7 +96,8 @@ cut -d "|" -f 1 file22
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/4d53309a-1361-4374-8384-0fcbbc6c5729)
+![image](https://github.com/user-attachments/assets/9812e3c6-7a85-4abe-9018-7b66be9a209f)
+
 
 
 cat < newfile 
