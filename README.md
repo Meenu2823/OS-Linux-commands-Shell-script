@@ -161,46 +161,53 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/da201af3-bf7c-4406-b8e5-8413ad0311c8)
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d6feaf32-b96c-4864-bc67-873965457142)
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/ccb0da60-acec-4a6c-a499-8f1821c5ec51)
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/bb079347-e39f-4a8c-b94a-08fe3ae7510c)
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/cb972741-b9c2-4b5d-aa55-6689e70d7075)
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/f1874f58-8825-436a-a28e-4703b955e77d)
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/2ef81797-736a-4813-82d3-d259547e7352)
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/45fc33f5-6f91-49f8-83d3-818060e18104)
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/01299174-30ba-4048-8e70-98881a85655c)
 
 
 egrep 'Linux.*World' newfile 
@@ -209,11 +216,13 @@ egrep 'Linux.*World' newfile
 
 egrep l{2} newfile
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/3a1182e3-b846-4688-9708-c10c19796f3c)
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![image](https://github.com/user-attachments/assets/ca4282ca-53a1-48f2-aac5-1c8f64ca9a72)
 
 
 cat > file23
